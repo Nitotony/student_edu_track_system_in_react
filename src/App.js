@@ -5,6 +5,8 @@ import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import SmallCard from "./components/small_card";
 import BigCard from "./components/big_card";
+import { FaUserTie } from "react-icons/fa6";
+import { FaPersonCircleCheck } from "react-icons/fa6";
 
 function App() {
   const [regular, setRegular] = useState(0);
@@ -26,19 +28,19 @@ function App() {
               logo={<FaUser color="white" />}
               count={regular}
               title="Regular Students"
-              background="blue"
+              background="red"
             />
             <BigCard
-              logo={<FaUser color="white" />}
+              logo={<FaUserTie color="white" />}
               count={remedial}
               title="Remedial Students"
-              background="blue"
+              background="purple"
             />
             <BigCard
-              logo={<FaUser color="white" />}
+              logo={<FaPersonCircleCheck color="white" />}
               count={paidclub}
               title="Paid Club Members"
-              background="blue"
+              background="green"
             />
           </div>
           <div className="second_head">
@@ -60,7 +62,6 @@ function App() {
               logo={<FaUser />}
               funk={() => setPaidclub(paidclub + 1)}
             />
-           
           </div>
         </div>
       </div>

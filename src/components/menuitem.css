@@ -1,17 +1,18 @@
 .MenuItem{
    display: flex;
    flex-direction: column;
-   background-color: aqua;
-   width: 300px;
+   background-color: rgb(30, 0, 197);
+   width: 200px;
    height: 200px;
    text-decoration: none;
    text-align: center;
+   color: white;
 }
 
 
 .MenuItem_logo span{
     display: flex;
-    font-size: 100px;
+    font-size: 80px;
     justify-content: center;
 
 }
