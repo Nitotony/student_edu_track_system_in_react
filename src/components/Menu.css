@@ -1,0 +1,13 @@
+
+
+.Menu_logo img{
+ 
+display: flex;
+    margin: auto;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.Menu_logo{
+    background-color: aqua;
+}

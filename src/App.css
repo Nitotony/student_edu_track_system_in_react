@@ -9,6 +9,11 @@
 
 }
 
+
+.content{
+  display: flex;
+  margin: 0 auto;
+}
 .Big_Card_Gallery
 {
   display: flex;

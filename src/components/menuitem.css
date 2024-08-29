@@ -1,0 +1,22 @@
+.MenuItem{
+   display: flex;
+   flex-direction: column;
+   background-color: aqua;
+   width: 300px;
+   height: 200px;
+   text-decoration: none;
+   text-align: center;
+}
+
+
+.MenuItem_logo span{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+
+}
+.MenuItem_name{
+    padding: 20px;
+
+}
+
