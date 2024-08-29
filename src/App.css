@@ -8,18 +8,47 @@
   display: flex;
 
 }
-
+.second_head h4{
+  text-align: center;
+  padding: 40px;
+}
 
 .content{
   display: flex;
   margin: 0 auto;
+  flex-direction: column;
+  width: 100%;
 }
 .Big_Card_Gallery
 {
   display: flex;
   
   gap:20px;
-  width: 100%;
+
   padding: 20px;
   margin:20px auto ;
+  justify-content: center;
+}
+
+
+.head{
+  background-color: hotpink;
+  padding: 70px 10px 10px 10px;
+  color: white;
+}
+
+.Prime{
+  width: 100%;
+}
+
+.Small_Card_Gallery{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+ justify-content: center;
+ gap: 100px;
+
+  
+
 }
