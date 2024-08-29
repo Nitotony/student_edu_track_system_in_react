@@ -1,0 +1,33 @@
+.BigCard{
+    color:#ffffff;
+    width: 420px;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Logo_Big_spec{
+    font-size: 150px;
+}
+.BigDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Big_count h4{
+    text-align: end;
+    font-size: 50px;
+   
+}
+
+
+.Big_title p{
+    text-align: center;
+
+}
+
+
