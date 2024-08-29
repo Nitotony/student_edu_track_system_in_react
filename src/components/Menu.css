@@ -12,3 +12,15 @@ display: flex;
 .Menu_logo{
     background-color:  rgb(30, 0, 197);
 }
+.options{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(30, 0, 197)
+   
+}
+
+.op span{
+    font-size: 30px;
+    color: white;
+}
+

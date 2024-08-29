@@ -54,12 +54,12 @@ function App() {
             />
             <SmallCard
               topic="Add Remedial Student"
-              logo={<FaUser />}
+              logo={<FaUserTie />}
               funk={() => setRemedial(remedial + 1)}
             />
             <SmallCard
               topic="Add Paid Club Member"
-              logo={<FaUser />}
+              logo={<FaPersonCircleCheck />}
               funk={() => setPaidclub(paidclub + 1)}
             />
           </div>

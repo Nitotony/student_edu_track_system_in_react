@@ -7,7 +7,9 @@ import { BsFileEarmarkBarGraphFill } from "react-icons/bs";
 import MenuItem from "./menuitem";
 import { CgCollage } from "react-icons/cg";
 import img from "../assets/Boston College.png"
-
+import { IoSettings } from "react-icons/io5";
+import { IoLogOut } from "react-icons/io5";
+import { FcAbout } from "react-icons/fc";
 import './Menu.css'
 
 const menus=[
@@ -19,26 +21,36 @@ const menus=[
     },
 ]
 const Menu=()=>{
-    return(
-        <div className="Menu_body">
-            <div className="Menu_logo">
-                <img src={img} alt="" />
-            </div>
-            <div className="Menu_links">
-
-                {
-                    menus.map((menu)=>{
-                        return(<MenuItem url={menu.url} name={menu.name} logo={menu.logo}/>)
-                    })
-                }
-
-
-
-            </div>
-
+    return (
+      <div className="Menu_body">
+        <div className="Menu_logo">
+          <img src={img} alt="" />
         </div>
-
-    )
+        <div className="Menu_links">
+          {menus.map((menu) => {
+            return (
+              <MenuItem url={menu.url} name={menu.name} logo={menu.logo} />
+            );
+          })}
+        </div>
+        <div className="options">
+          <div className="op">
+            <span>
+             
+              <IoSettings />
+            </span>
+          </div>
+          <div className="op">
+            <span>
+              <IoLogOut />
+            </span>
+          </div>
+          <div className="op">
+            <span> <FcAbout/></span>
+          </div>
+        </div>
+      </div>
+    );
 }
 
 export default Menu;
